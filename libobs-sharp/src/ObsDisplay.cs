@@ -1,4 +1,4 @@
-﻿/***************************************************************************
+/***************************************************************************
 	Copyright (C) 2014-2015 by Ari Vuollet <ari.vuollet@kapsi.fi>
 
 	This program is free software; you can redistribute it and/or
@@ -31,7 +31,7 @@ namespace OBS
 
 		public ObsDisplay(libobs.gs_init_data graphicsData)
 		{
-			instance = libobs.obs_display_create(ref graphicsData);
+			instance = libobs.obs_display_create(ref graphicsData, 0);
 
 			if (instance == null)
 				throw new ApplicationException("obs_display_create failed");

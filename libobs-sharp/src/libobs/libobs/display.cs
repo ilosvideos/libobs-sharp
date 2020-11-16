@@ -30,7 +30,7 @@ namespace OBS
 		/* Display context */
 
 		[DllImport(importLibrary, CallingConvention = importCall)]
-		public static extern obs_display_t obs_display_create(ref gs_init_data graphics_data);
+		public static extern obs_display_t obs_display_create(ref gs_init_data graphics_data, uint32_t background_color);
 
 		[DllImport(importLibrary, CallingConvention = importCall)]
 		public static extern void obs_display_destroy(obs_display_t display);

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -87,5 +87,19 @@ namespace OBS
     {
         Video,
         Audio,
+    };
+    public enum MFEncoderRateControl : int
+    {
+	    H264RateControlCBR,
+	    H264RateControlConstrainedVBR,
+	    H264RateControlVBR,
+	    H264RateControlCQP
+    };
+
+    public enum MFEncoderProfile : int
+    {
+	    H264ProfileBaseline,
+	    H264ProfileMain,
+	    H264ProfileHigh
     };
 }

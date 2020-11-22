@@ -87,6 +87,8 @@
     <Compile Include="src\libobs\libobs\display.cs" />
     <Compile Include="src\libobs\libobs\encoder.cs" />
     <Compile Include="src\libobs\libobs\hotkey.cs" />
+    <Compile Include="src\libobs\libobs\Parameters\Filters\MaskFilter.cs" />
+    <Compile Include="src\libobs\libobs\Parameters\Filters\MaskFilterTypes.cs" />
     <Compile Include="src\libobs\libobs\Parameters\MediaSource.cs" />
     <Compile Include="src\libobs\libobs\obs.cs" />
     <Compile Include="src\libobs\libobs\output.cs" />

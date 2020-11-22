@@ -18,5 +18,7 @@
         public const string DECKLINK_INPUT = "decklink-input";
         public const string SCENE = "scene";
         public const string NDI_SOURCE = "ndi_source";
+
+        public const string MASK_FILTER = "mask_filter";
     }
 }
